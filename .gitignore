@@ -1,20 +1,19 @@
 
 *.cache/
 *.hw/
-*.ip_user_files/
-*.runs/
 *.sim/
+*.runs/
+*.ip_user_files/
 *.gen/
-
-
+*.dcp
 *.jou
 *.log
-vivado*.str
-vivado_pid*.zip
+*.str
+*.wpc
+*.lpr
 .Xil/
 
-
-*.xpr.bak
-
-.DS_Store
-Thumbs.db
+!*.v
+!*.sv
+!*.xdc
+!*.xpr
